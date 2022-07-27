@@ -1,0 +1,175 @@
+html {
+    background-image: url(../imagens/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icone {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.seta {
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    margin: 15%;
+    padding: 3px;
+    background-color: rgb(209, 209, 209);
+}
+
+.inverter {
+
+    transform: rotate(180deg);
+}
+
+.carta {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 480px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    border-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(39, 38, 38, 0.65);
+    color: aliceblue;
+
+
+}
+
+.nome {
+    position: relative;
+    line-height: 24px;
+    font-size: 25px;
+    float: left;
+    text-align: left;
+    left: 10px;
+    top: 010px;
+    margin: 10px;
+}
+
+.texto {
+    position: relative;
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    left: 10px;
+    top: 0px;
+    margin: 3px;
+}
+
+.personagem {
+    position: relative;
+    width: auto;
+    height: 380px;
+    margin: 0px;
+    left: 25px;
+
+}
+
+.imagembolas {
+    position: relative;
+    width: auto;
+
+    margin: 385px 0px 0px 0px;
+    left: 25px;
+
+}
+
+.Informacoes {
+    margin: 0px 0px 0px 0px;
+    width: 480px;
+    height: 145px;
+    position: relative;
+
+    left: 10px;
+    background-color: rgba(39, 38, 38, 0.65);
+    border-radius: 0px 0px 10px 10px;
+    color: aliceblue;
+}
+
+.historia {
+    width: 480px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: aliceblue;
+    margin: 0px;
+}
+
+.Descricao {
+    overflow-y: scroll;
+    height: 115px;
+    margin: 0px 10px 0px 5px;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.branca {
+    background-image: url(../imagens/Plains.jpg);
+}
+
+.preta {
+    background-image: url(../imagens/swamp.jpg);
+}
+
+.preta2 {
+    background-image: url(../imagens/swamp.jpg);
+}
+
+.vermelha {
+    background-image: url(../imagens/mountain.jpg);
+}
+
+.azul {
+    background-image: url(../imagens/island.jpg);
+}
+
+.verde {
+    background-image: url(../imagens/forest.jpg);
+}
+
+.bolas {
+    background-image: url(../imagens/Nicol_bol.png);
+}
