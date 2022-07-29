@@ -1,0 +1,97 @@
+@media(max-width: 500px) {
+   
+
+    .cabeca .icone {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icone {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .seta {
+        margin: 0px;
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .carta {
+        width: 250px;
+        height: 300px;
+    }
+
+    .cabecalho {
+        width: 240px;
+        height: 30px;
+        left: 5px;
+        top: 5px;
+        right: 5px;
+        border-top: 10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .nome {
+        line-height: 12px;
+        font-size: 13px;
+        float: left;
+        text-align: left;
+        left: 5px;
+        top: 5px;
+        margin: 5px;
+    }
+
+    .texto {
+        font-size: 10px;
+        float: left;
+        text-align: left;
+        left: 5px;
+        top: 0px;
+        margin: 0px;
+    }
+
+    .personagem {
+        position: relative;
+        width: auto;
+        height: 190px;
+        margin: 0px;
+        left: 13px;
+
+    }
+
+    .imagembolas {
+        position: relative;
+        width: auto;
+
+        margin: 195px 0px 0px 0px;
+        left: 13px;
+
+    }
+
+    .Informacoes {
+        width: 240px;
+        height: 73px;
+        position: relative;
+        left: 5px;
+    }
+
+    .historia {
+        width: 240px;
+        height: 15px;
+    }
+    .Descricao {
+              height:54px ;
+        margin: 0px 5px 0px 3px;
+        padding: 0px 3px 0px 0px;
+          }
+          .corpo {
+        gap:5px;  
+        }
+}
